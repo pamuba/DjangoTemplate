@@ -1,0 +1,3 @@
+*variables in templates
+filters: formates the data for display
+tags and url names

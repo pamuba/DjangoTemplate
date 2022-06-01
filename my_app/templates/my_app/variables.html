@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Variable HTML Connected!!!</h1>
+     {% comment %} <hr>
+     <h2>FIRST NAME:{{first_name | lower | capfirst}} LAST NAME:{{last_name}}</h2>
+     <hr>
+     <h2>{{some_list.2}}</h2>
+     <hr>
+     <h2>{{some_dict.inside_key}}</h2>
+     <hr>
+     <h2>{# this is a comment #}</h2>
+     <hr>
+
+     <ul>
+     {% for items in some_list %}
+        {% if items == 2 %}
+          <li>TWO</li>
+        {% else %}
+         <li>{{items}}</li>
+        {% endif %}
+     {% endfor %}
+     </ul>
+
+     <hr> {% endcomment %}
+
+
+</body>
+</html>

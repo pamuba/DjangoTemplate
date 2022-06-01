@@ -22,3 +22,5 @@ urlpatterns = [
      #localhost:8000/my_app/
     path('my_app/', include('my_app.urls'))
 ]
+
+handler404 = 'my_site.views.my_custom_not_found'
